@@ -1,5 +1,5 @@
 #!/bin/bash
-key='<leoboiko@namakajiri.net>'
+key='<melissa@namakajiri.net>'
 
 if ! gpg --list-keys --with-colons | grep "^pub" | grep -q "$key:"
 then

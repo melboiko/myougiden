@@ -120,7 +120,7 @@ Required python packages (available on pip):
 
 To install from github:
 
-    $ git clone git://github.com/leoboiko/myougiden.git
+    $ git clone git://github.com/melissaboiko/myougiden.git
     $ cd myougiden
     $ sudo python3 setup.py install
 
