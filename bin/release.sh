@@ -1,7 +1,7 @@
 #!/bin/bash
 key='<melissa@namakajiri.net>'
 
-if ! gpg --list-keys --with-colons | grep "^pub" | grep -q "$key:"
+if ! gpg --list-keys --with-colons | egrep "^pub|uid" | grep -q "$key:"
 then
   echo "Could not find GPG key $key!"
   exit 1
